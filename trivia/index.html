@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="question"></h1>
+    <select id="catselect">
+      <option value="0">Any</option>
+    </select>
+    <div class="gamebox">
+      <p><b id="score"></b></p>
+      <div class="infobox">
+        <p id="cat"></p>
+        <p id="difficulty"></p>
+      </div>
+      <div class="choice-section"></div>
+      <h2 id="result"></h2>
+      <button onclick="qSetup()" class="continue-btn">Continue</button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
