@@ -1,7 +1,6 @@
 /*
 This below is my hello world program
-don't steal this code, it sucks
-copyright me aka raeed 
+don't steal this code because it sucks
 */
 let questionsarray = [];
 let score = 0;
